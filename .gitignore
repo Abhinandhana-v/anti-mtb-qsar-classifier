@@ -1,0 +1,35 @@
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.log
+
+# Generated model and intermediate outputs
+outputs/
+
+# Commercial screening libraries
+data/screening_libraries/
+
+# Virtual screening modules pending approval
+src/virtual_screening/generate_screening_descriptors.py
+src/virtual_screening/predict_activity.py
